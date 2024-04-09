@@ -9,15 +9,15 @@ import { PiYoutubeLogo } from "react-icons/pi";
 const Footer = () => {
   return (
     <>
-      <div className="flex w-full">
-        <div className="h-[24rem] w-1/3  relative">
+      <div className="flex w-full flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row">
+        <div className="h-[24rem] w-full sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 relative mb-6">
           <h6 className="ml-[3.25rem] mb-1 font-black text-4xl ">Easy</h6>
           {/* <br /> */}
           <h6 className=" ml-[3.25rem] pb-2 font-black text-4xl text-blue-600">
             ahead
           </h6>
           {/* <br /> */}
-          <p className="body-1 mt-4 ml-[3.25rem]">
+          <p className="flex w-4/5 sm:flex-row body-1 mt-4 ml-[3.25rem]">
             We take the work out of connecting with others so you can accomplish
             more.
           </p>
@@ -30,13 +30,13 @@ const Footer = () => {
             <PiYoutubeLogo className="h-6 w-6 mx-2" />
           </div>
           <p
-            className="ml-14 xl:mt-20 lg:mt-28 md:mt-[9.5rem] mt-24 bottom-4 text-gray-5
+            className="ml-14 mb-6 xl:mt-20 lg:mt-28 md:mt-[9.5rem] mt-24 bottom-4 text-gray-5
         00"
           >
             Copyright Calendly {new Date().getFullYear()}
           </p>
         </div>
-        <div className="flex flex-wrap w-2/3">
+        <div className="flex flex-wrap w-full sm:w-2/3 md:w-2/3 lg:w-2/3 xl:w-2/3 mt-6">
           <h6 className="h6 sm:mx-4 sm:mb-4 mx-8 mb-4 md:mx-16  lg:mx-20">
             About
             <ul>

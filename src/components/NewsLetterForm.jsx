@@ -12,15 +12,7 @@ const NewsletterForm = () => {
   };
 
   return (
-    <div className="relative top-14 left-16 w-4/5 rounded-md newsletter-container bg-white pl-20 py-5">
-      {/* <div className="newsletter-content">
-        <h2>STAY UPDATED</h2>
-        <p>Subscribe to the newsletter</p>
-        <p>
-          Submit your email, and once a month we'll send you our best
-          time-saving articles, videos and other resources.
-        </p>
-      </div> */}
+    <div className="relative top-14 left-16 w-4/5 rounded-md newsletter-container bg-white pl-2 py-2 sm:pl-20 sm:py-5 md:pl-20 md:py-5 lg:pl-20 lg:py-5 xl:pl-20 xl:py-5">
       <form
         className="subscription-form flex flex-wrap pb-5"
         onSubmit={handleSubmit}
